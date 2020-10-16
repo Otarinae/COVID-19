@@ -7,11 +7,6 @@ body {
   font-weight: normal;
 }
 
-button {
-  font-size: inherit;
-  font-family: inherit;
-}
-
 a {
   text-decoration: none;
 }
@@ -92,6 +87,7 @@ p {
 }
 
 .btn {
+  font-family: "Jost", sans-serif;
   background-color: inherit;
   min-height: 55px;
   color: #ff383d;
@@ -173,4 +169,52 @@ p {
   margin-top: 440px;
   position: absolute;
   right: 0;
+}
+
+.covid {
+  display: flex;
+  justify-content: center;
+}
+
+.covid__inner {
+  width: 1445px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.covid__virus {
+  position: absolute;
+  left: -240px;
+  top: -175px;
+}
+
+.covid__text {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 100px 0 190px 70px;
+  font-weight: bold;
+}
+
+.covid__text > span {
+  font-size: 29px;
+  line-height: 124%;
+  color: #fa5652;
+}
+
+.covid__text > h1 {
+  font-size: 50px;
+  line-height: 119%;
+  color: #035755;
+  text-transform: capitalize;
+}
+
+.covid__text > p {
+  width: 650px;
+  margin: 20px 0 55px;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 215%;
+  text-transform: capitalize;
+  color: #4b4f51;
 }

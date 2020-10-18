@@ -239,6 +239,7 @@ p {
 }
 
 .contagion {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
 }
@@ -248,8 +249,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 444px;
 }
 
 .contagion__text {
@@ -340,4 +339,17 @@ p {
   top: 300px;
   left: -140px;
   z-index: -1;
+}
+
+.symptomps {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.symptomps__inner {
+  width: 1445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

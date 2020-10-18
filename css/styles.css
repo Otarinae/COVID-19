@@ -351,5 +351,33 @@ p {
   width: 1445px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.symptomps__text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.symptomps__text > span {
+  font-size: 29px;
+  line-height: 124%;
+  color: #fa5652;
+}
+
+.symptomps__text > h1 {
+  font-size: 50px;
+  line-height: 119%;
+  color: #035755;
+}
+
+.symptomps__text > p {
+  width: 740px;
+  margin-top: 30px;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 215%;
+  color: #4b4f51;
 }

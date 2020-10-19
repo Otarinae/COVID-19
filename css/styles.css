@@ -394,3 +394,84 @@ p {
   bottom: -20px;
   right: -200px;
 }
+
+.prevention {
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+}
+
+.prevention__inner {
+  width: 1445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prevention__text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.prevention__text > span {
+  font-size: 29px;
+  line-height: 124%;
+  color: #fa5652;
+}
+
+.prevention__text > h1 {
+  font-size: 50px;
+  line-height: 119%;
+  color: #035755;
+}
+
+.prevention__text > p {
+  width: 680px;
+  margin-top: 30px;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 215%;
+  color: #4b4f51;
+}
+
+.prevention__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.prevention__number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  background-color: #fee6e5;
+  border-radius: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  color: #fa5652;
+}
+
+.prevention__card-text > h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 47px;
+  line-height: 147%;
+  color: #035755;
+}
+
+.prevention__card-text > p {
+  width: 510px;
+  margin-top: 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  line-height: 221%;
+  color: #4b4f51;
+}

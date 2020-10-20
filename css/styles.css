@@ -451,7 +451,7 @@ p {
   justify-content: center;
   width: 75px;
   height: 75px;
-  background-color: #fee6e5;
+  background-color: rgba(250, 86, 82, 0.15);
   border-radius: 50px;
   font-family: "Red Hat Display", sans-serif;
   font-weight: bold;

@@ -401,18 +401,29 @@ p {
   justify-content: center;
 }
 
+.prevention__leftsidevirus {
+  position: absolute;
+  left: 0;
+  top: 4675px;
+}
+
+.prevention__rightsidevirus {
+  position: absolute;
+  right: 0;
+  top: 6185px;
+}
+
 .prevention__inner {
   width: 1445px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .prevention__text {
   font-family: "Red Hat Display", sans-serif;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .prevention__text > span {
@@ -444,8 +455,17 @@ p {
   position: relative;
 }
 
-.prevention__number {
+.prevention__virus {
   position: absolute;
+  right: -435px;
+  top: 20px;
+}
+
+.prevention__numtxt {
+  display: flex;
+}
+
+.prevention__number {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -458,6 +478,7 @@ p {
   font-size: 44px;
   line-height: 145%;
   color: #fa5652;
+  margin-right: 45px;
 }
 
 .prevention__card-text > h1 {

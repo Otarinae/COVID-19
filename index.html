@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <div class="gradient">
+    <div class="gradient__one">
       <header class="header">
         <div class="header__inner">
           <a class="logo" href="index.html">
@@ -24,25 +24,26 @@
           </a>
           <div class="header__nav">
             <div class="header__nav-linkcircle">
-              <a class="header__nav-link" href="">Overview</a>
+              <a class="header__nav-link" href="#overview">Overview</a>
               <div class="header__nav-circle"></div>
             </div>
             <div class="header__nav-linkcircle">
-              <a class="header__nav-link" href="">Contagion</a>
+              <a class="header__nav-link" href="#contagion">Contagion</a>
               <div class="header__nav-circle"></div>
             </div>
             <div class="header__nav-linkcircle">
-              <a class="header__nav-link" href="">Symptoms</a>
+              <a class="header__nav-link" href="#symptoms">Symptoms</a>
               <div class="header__nav-circle"></div>
             </div>
             <div class="header__nav-linkcircle">
-              <a class="header__nav-link" href="">Prevention</a>
+              <a class="header__nav-link" href="#prevention">Prevention</a>
               <div class="header__nav-circle"></div>
             </div>
             <button class="btn">Contact</button>
           </div>
         </div>
       </header>
+      <a id="overview"></a>
       <div class="overview">
         <img
           class="overview__sidevirus"
@@ -92,6 +93,7 @@
           </div>
         </div>
       </div>
+      <a id="contagion"></a>
       <div class="contagion">
         <div class="contagion__inner">
           <div class="contagion__text">
@@ -146,21 +148,22 @@
           </div>
         </div>
       </div>
-      <div class="symptomps">
-        <div class="symptomps__inner">
+      <div class="symptoms">
+        <a id="symptoms"></a>
+        <div class="symptoms__inner">
           <img
-            class="symptomps__pathone"
+            class="symptoms__pathone"
             src="img/symptoms-path-one.svg"
             alt="path"
           />
           <img
-            class="symptomps__pathtwo"
+            class="symptoms__pathtwo"
             src="img/symptoms-path-two.svg"
             alt="path"
           />
-          <div class="symptomps__text">
+          <div class="symptoms__text">
             <span>Covid-19</span>
-            <h1>Symptomps</h1>
+            <h1>Symptoms</h1>
             <p>
               Corona viruses are a type of virus. There are many different
               kinds, and some cause disease. A newly identified type has caused
@@ -187,6 +190,7 @@
           alt="virus"
         />
         <div class="prevention__inner">
+          <a id="prevention"></a>
           <div class="prevention__text">
             <span>Covid-19</span>
             <h1>What should we do</h1>
@@ -263,20 +267,160 @@
           </div>
         </div>
       </div>
-      <div class="stats">
-        <div class="stats__inner">
-          <div class="stats__zoom">
-            <img src="img/stats-plus.svg" alt="plus" />
-            <div class="stats__stroke"></div>
-            <img src="img/stats-minus.svg" alt="minus" />
-            <div class="stats__stroke"></div>
-            <img src="img/stats-nav.svg" alt="compass" />
+    </main>
+    <footer>
+      <div class="gradient__two">
+        <div class="stats">
+          <div class="stats__inner">
+            <div class="stats__zoom">
+              <img src="img/stats-plus.svg" alt="plus" />
+              <img src="img/stats-stroke.svg" alt="stroke" />
+              <img src="img/stats-minus.svg" alt="minus" />
+              <img src="img/stats-stroke.svg" alt="stroke" />
+              <img src="img/stats-nav.svg" alt="compass" />
+            </div>
+            <div class="stats__search">
+              <img src="img/stats-search.svg" alt="search" />
+            </div>
+            <img src="img/stats-map.svg" alt="map" />
+            <div class="stats__reports">
+              <div class="stats__heading">
+                Live Reports
+                <div class="stats__scroll">
+                  <img src="img/stats-left.svg" alt="left arrow" />
+                  <img src="img/stats-vertstroke.svg" alt="vertical stroke" />
+                  <img src="img/stats-right.svg" alt="right arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-usa.svg" alt="usa" />
+                  USA
+                </div>
+                <div class="stats__right">
+                  100,392
+                  <img src="img/stats-top.svg" alt="top arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-italy.svg" alt="Italy" />
+                  Italy
+                </div>
+                <div class="stats__right">
+                  86,498
+                  <img src="img/stats-top.svg" alt="top arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-china.svg" alt="China" />
+                  China
+                </div>
+                <div class="stats__right">
+                  81,340
+                  <img src="img/stats-bottom.svg" alt="bottom arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-spain.svg" alt="Spain" />
+                  Spain
+                </div>
+                <div class="stats__right">
+                  64,059
+                  <img src="img/stats-top.svg" alt="top arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-germany.svg" alt="Germany" />
+                  Germany
+                </div>
+                <div class="stats__right">
+                  50,871
+                  <img src="img/stats-top.svg" alt="top arrow" />
+                </div>
+              </div>
+              <div class="stats__line">
+                <div class="stats__left">
+                  <img src="img/stats-iran.svg" alt="Iran" />
+                  Iran
+                </div>
+                <div class="stats__right">
+                  32,332
+                  <img src="img/stats-top.svg" alt="top arrow" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="stats__search"></div>
-          <img src="img/stats-map.svg" alt="map" />
-          <div class="stats__reports"></div>
+        </div>
+        <div class="subscribe">
+          <img
+            class="subscribe__sidevirus"
+            src="img/subscribe-sidevirus.svg"
+            alt="virus"
+          />
+          <img
+            class="subscribe__virus"
+            src="img/subscribe-virus.svg"
+            alt="virus"
+          />
+          <div class="subscribe__inner">
+            <h1>Have Question in mind? Let us help you</h1>
+            <form class="subscribe__form">
+              <input
+                class="subscribe__email"
+                name="email"
+                type="email"
+                placeholder="snmonydemo@gmail.com"
+              />
+              <button class="btn btn--fourth" type="button">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer__inner">
+            <div class="footer__top">
+              <a class="logo" href="index.html">
+                <img src="img/logo.svg" alt="logo" />
+                COVID-19
+              </a>
+              <div class="footer__nav">
+                <div class="footer__nav-linkcircle">
+                  <a class="footer__nav-link" href="#overview">Overview</a>
+                  <div class="footer__nav-circle"></div>
+                </div>
+                <div class="footer__nav-linkcircle">
+                  <a class="footer__nav-link" href="#symptoms">Symptoms</a>
+                  <div class="footer__nav-circle"></div>
+                </div>
+                <div class="footer__nav-linkcircle">
+                  <a class="footer__nav-link" href="#prevention">Prevention</a>
+                  <div class="footer__nav-circle"></div>
+                </div>
+                <div class="footer__nav-linkcircle">
+                  <a class="footer__nav-link" href="">Treatment</a>
+                  <div class="footer__nav-circle"></div>
+                </div>
+              </div>
+              <div class="footer__right">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="img/footer-facebook.svg" alt="facebook" />
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                  <img src="img/footer-youtube.svg" alt="youtube" />
+                </a>
+                <a href=""><img src="img/footer-v.svg" alt="v" /></a>
+                <a href="https://twitter.com/" target="_blank">
+                  <img src="img/footer-twitter.svg" alt="twitter" />
+                </a>
+              </div>
+            </div>
+            <span>2020 @ All rights reserved by pixelspark.co</span>
+          </div>
         </div>
       </div>
-    </main>
+    </footer>
   </body>
 </html>

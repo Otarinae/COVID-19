@@ -233,9 +233,9 @@ p {
 }
 
 .covid__smallvirus {
-  bottom: -90px;
+  top: 1695px;
   position: absolute;
-  right: -200px;
+  right: 30px;
 }
 
 .contagion {
@@ -413,6 +413,12 @@ p {
   top: 6185px;
 }
 
+.prevention__virus {
+  position: absolute;
+  right: 30px;
+  top: 6040px;
+}
+
 .prevention__inner {
   width: 1445px;
   display: flex;
@@ -424,6 +430,9 @@ p {
   font-weight: bold;
   margin-bottom: 70px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .prevention__text > span {
@@ -453,12 +462,6 @@ p {
   justify-content: space-between;
   align-items: center;
   position: relative;
-}
-
-.prevention__virus {
-  position: absolute;
-  right: -435px;
-  top: 20px;
 }
 
 .prevention__numtxt {
@@ -495,4 +498,55 @@ p {
   font-size: 18px;
   line-height: 221%;
   color: #4b4f51;
+}
+
+.stats {
+  padding-bottom: 935px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 241, 241, 0.5) 0%,
+    rgba(255, 241, 241, 0) 108.69%
+  );
+}
+
+.stats__inner {
+  width: 1545px;
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats__zoom {
+  width: 85px;
+  height: 225px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  top: 0;
+  left: 55px;
+}
+
+.stats__stroke {
+}
+
+.stats__search {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  top: 0;
+  left: 930px;
+}
+
+.stats__reports {
+  width: 505px;
+  height: 635px;
+  background-color: #fff;
+  border-radius: 5px;
 }

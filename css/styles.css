@@ -655,14 +655,14 @@ p {
 }
 
 .subscribe__email {
-  width: 750px;
+  width: 790px;
   height: 115px;
   border-radius: 55px;
-  position: absolute;
-  z-index: 1;
   border: none;
   outline: none;
   padding-left: 40px;
+  padding-right: 290px;
+  box-sizing: border-box;
   font-family: "Jost", sans-serif;
   font-weight: normal;
   font-size: 22px;

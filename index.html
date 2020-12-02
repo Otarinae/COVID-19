@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>COVID-19</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="img/favicon.png" rel="icon" />
@@ -20,7 +24,7 @@
         <div class="header__inner">
           <a class="logo" href="index.html">
             <img src="img/logo.svg" alt="logo" />
-            COVID-19
+            <span>COVID-19</span>
           </a>
           <div class="header__nav">
             <div class="header__nav-linkcircle">
@@ -112,10 +116,12 @@
             />
             <div class="contagion__card">
               <div class="contagion__line"></div>
-              <img
-                src="img/contagion-air-transmission.svg"
-                alt="air transmission"
-              />
+              <div class="contagion__card-img">
+                <img
+                  src="img/contagion-air-transmission.svg"
+                  alt="air transmission"
+                />
+              </div>
               <h1>Air Transmission</h1>
               <p>
                 Objectively evolve tactical expertise before extensible
@@ -124,10 +130,12 @@
             </div>
             <div class="contagion__card">
               <div class="contagion__line"></div>
-              <img
-                src="img/contagion-human-contacts.svg"
-                alt="human contacts"
-              />
+              <div class="contagion__card-img">
+                <img
+                  src="img/contagion-human-contacts.svg"
+                  alt="human contacts"
+                />
+              </div>
               <h1>Human Contacts</h1>
               <p>
                 Washing your hands is one of thesimplest ways you can protect
@@ -135,10 +143,12 @@
             </div>
             <div class="contagion__card">
               <div class="contagion__line"></div>
-              <img
-                src="img/contagion-containted-objects.svg"
-                alt="containted objects"
-              />
+              <div class="contagion__card-img">
+                <img
+                  src="img/contagion-containted-objects.svg"
+                  alt="containted objects"
+                />
+              </div>
               <h1>Containted Objects</h1>
               <p>
                 Use the tissue while sneezing,In this way, you can protect your
@@ -170,23 +180,25 @@
               a recent outbreak of respiratory
             </p>
           </div>
-          <img src="img/symptoms-girl.svg" alt="symptoms" />
+          <img
+            src="img/symptoms-girl.svg"
+            alt="symptoms"
+            class="symptoms__inner-img"
+          />
+          <div class="symptoms__mobile">
+            <div>Fever</div>
+            <div>Throat Pain</div>
+            <div>Dypsnoea</div>
+            <div>Headache</div>
+            <div>Runny Nose</div>
+            <div>Shaking Chills</div>
+          </div>
         </div>
       </div>
       <div class="prevention">
         <img
           class="prevention__leftsidevirus"
           src="img/prevention-leftsidevirus.svg"
-          alt="virus"
-        />
-        <img
-          class="prevention__rightsidevirus"
-          src="img/prevention-rightsidevirus.svg"
-          alt="virus"
-        />
-        <img
-          class="prevention__virus"
-          src="img/prevention-virus.svg"
           alt="virus"
         />
         <div class="prevention__inner">
@@ -265,6 +277,16 @@
               </div>
             </div>
           </div>
+          <img
+            class="prevention__rightsidevirus"
+            src="img/prevention-rightsidevirus.svg"
+            alt="virus"
+          />
+          <img
+            class="prevention__virus"
+            src="img/prevention-virus.svg"
+            alt="virus"
+          />
         </div>
       </div>
     </main>
@@ -272,26 +294,9 @@
       <div class="gradient__two">
         <div class="stats">
           <div class="stats__inner">
-            <div class="stats__zoom">
-              <img src="img/stats-plus.svg" alt="plus" />
-              <img src="img/stats-stroke.svg" alt="stroke" />
-              <img src="img/stats-minus.svg" alt="minus" />
-              <img src="img/stats-stroke.svg" alt="stroke" />
-              <img src="img/stats-nav.svg" alt="compass" />
-            </div>
-            <div class="stats__search">
-              <img src="img/stats-search.svg" alt="search" />
-            </div>
             <img src="img/stats-map.svg" alt="map" />
             <div class="stats__reports">
-              <div class="stats__heading">
-                Live Reports
-                <div class="stats__scroll">
-                  <img src="img/stats-left.svg" alt="left arrow" />
-                  <img src="img/stats-vertstroke.svg" alt="vertical stroke" />
-                  <img src="img/stats-right.svg" alt="right arrow" />
-                </div>
-              </div>
+              <div class="stats__heading">Live Reports</div>
               <div class="stats__line">
                 <div class="stats__left">
                   <img src="img/stats-usa.svg" alt="usa" />
